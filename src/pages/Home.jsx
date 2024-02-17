@@ -1,5 +1,6 @@
 import React from "react";
 import Course from "../components/Course";
+import bannerImg from '../assets/nce-wallapaper-_1_.webp'
 import img1 from "../assets/Mathematics-rafiki.png";
 import img2 from "../assets/Science-pana.png";
 import img3 from "../assets/English teacher-rafiki.png";

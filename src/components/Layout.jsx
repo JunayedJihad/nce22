@@ -1,5 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
+import banner from '../assets/nce-wallapaper-_1_.webp'
 
 function Layout() {
   return (
@@ -8,7 +9,7 @@ function Layout() {
                <p className='min-h-[40vh] text-white text-xl sm:text-2xl md:text-3xl flex justify-center items-center'>Nanomaterials and Ceramic Engineering</p>
           </div> */}
           <div>
-               <img src="../../public/nce-wallapaper-_1_.webp" alt="" />
+               <img className='h-[40vh] md:h-auto w-[100%]' src={banner} alt="" />
           </div>
           <div className='min-h-[75vh] py-6'>
                <Outlet/>
