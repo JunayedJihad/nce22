@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .banner{
-  background: url(../public/14abe6e1c2_79418_canonique-483-01.jpg);
+  /* background: url(../public/14abe6e1c2_79418_canonique-483-01.jpg); */
   background-size: cover;
 }
 .zoom:hover{

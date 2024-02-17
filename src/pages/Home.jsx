@@ -12,7 +12,10 @@ import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="sm:flex sm:flex-wrap justify-center">
+    <div>
+      <p className="text-center text-xl lg:text-2xl mb-4">Level 01/Term 01</p>
+      <div className="sm:flex sm:flex-wrap justify-center">
+
       <NavLink to="nce101"  className=' zoom sm:basis-[48.5%] lg:basis-[32%] xl:basis-[24.5%]'>
         <Course image={img5} title="nce 101" />
       </NavLink>
@@ -45,6 +48,7 @@ function Home() {
         <Course image={img6} title="me 174" />
       </NavLink>
 
+    </div>
     </div>
   );
 }

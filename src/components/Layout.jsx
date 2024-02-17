@@ -4,8 +4,11 @@ import { Outlet } from 'react-router-dom'
 function Layout() {
   return (
     <div>
-          <div className='banner'>
+          {/* <div className='banner'>
                <p className='min-h-[40vh] text-white text-xl sm:text-2xl md:text-3xl flex justify-center items-center'>Nanomaterials and Ceramic Engineering</p>
+          </div> */}
+          <div>
+               <img src="../../public/nce-wallapaper-_1_.webp" alt="" />
           </div>
           <div className='min-h-[75vh] py-6'>
                <Outlet/>
